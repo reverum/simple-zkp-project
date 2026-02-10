@@ -24,7 +24,7 @@ def index_penduduk():
     <head><title>Data Penduduk (Prover)</title></head>
     <body style="font-family: Arial; background-color: #C7DFED; padding: 20px;">
         <div style="background: white; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto;">
-            <h2>Data Penduduk - ZK Proof Generator</h2>
+            <h2>National ID Proof Generator</h2>
             <p>Upload <b>KTP.json</b>. Bukti akan dibuat untuk <b>NIK dan Tahun Lahir</b> saja.</p>
             <form method="POST" enctype="multipart/form-data" action="/generate-proof">
                 <input type="file" name="ktp_file" accept=".json" required><br><br>
