@@ -22,7 +22,8 @@ def index_game():
     <head><title>Game Platform (Verifier)</title></head>
     <body style="font-family: Arial; background-color: #e6ffe6; padding: 20px;">
         <div style="background: white; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto;">
-            <h2>Verifikasi Akses Game (ZKP)</h2>
+            <h2>Integrated Digital Residency & Identity System with Zero-Knowledge Proof</h2>
+            <hr>
             <p>Input NIK & Tanggal Lahir untuk memverifikasi usia (Min: {GAME_MIN_AGE} tahun).</p>
             <form method="POST" enctype="multipart/form-data" action="/verify-proof">                
                 <label>NIK:</label><br>
