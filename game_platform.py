@@ -91,9 +91,9 @@ def verify_proof():
             proof_year = int(available_signals[1])
             
             if proof_year <= age_limit_year:
-                flash(f"BERHASIL! ✅ Usia cukup ({CURRENT_YEAR - proof_year} thn). Selamat bermain!")
+                flash(f"✅ Usia cukup ({CURRENT_YEAR - proof_year} thn).")
             else:
-                flash(f"GAGAL! ❌ Usia belum mencapai {GAME_MIN_AGE} tahun.")
+                flash(f"❌ Usia belum mencapai {GAME_MIN_AGE} tahun.")
         else:
             flash("KRITIS: Bukti Palsu atau Telah Dimodifikasi! ❌")
             
