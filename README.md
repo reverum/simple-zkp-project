@@ -1,8 +1,9 @@
 
 ## DISCLAIMER:
 
-- Project ini dibuat untuk tujuan **edukasi dan demonstrasi konsep** Zero Knowledge Proof (ZKP) sederhana. Kode ini bersifat ***eksperimental***
-- Kode ini disediakan **"sebagaimana adanya"** (_as-is_). Jika Anda menemukan error, kendala instalasi, atau sirkuit yang tidak mau kompilasi, saya tidak memberikan jaminan untuk memberikan bantuan teknis atau perbaikan (support)
+- Project ini dibuat untuk tujuan **edukasi dan demonstrasi konsep** Zero Knowledge Proof (ZKP) sederhana.
+- Kode ini bersifat ***eksperimental***
+- Kode ini disediakan **"sebagaimana adanya"** (_as-is_). Jika Anda menemukan error, kendala instalasi, atau sirkuit yang tidak mau kompilasi, saya tidak memberikan bantuan teknis atau perbaikan (support)
 - Segala risiko yang ditimbulkan karena penggunaan kode ini (contoh: komputer jadi lemot, salah download, dsb) sepenuhnya menjadi tanggung jawab pengguna tanpa jaminan dalam bentuk apa pun
 - Project ini dibuat dan dijalankan di Ubuntu Server 24.04. Jika menggunakakn distro atau platform lain, harap disesuaikan sendiri
 ----------------------------
@@ -66,7 +67,7 @@ Jika data_penduduk dan game_platform sudah berhasil dijalankan, buka web browser
 **Generate Proof (Sebagai Bob)**
 
  1. Buka `http://localhost:5000`
- 2. Anda akan melihat halaman "Data Penduduk". 
+ 2. Anda akan melihat halaman "National ID Proof Generator". 
  3. Klik **Choose File** dan pilih `ktp_bob.json` yang disertakan dalam project ini
  4. Klik **GENERATE PROOF**
  5. Sistem akan mendownload file    bernama `age_verification_proof.json`
@@ -75,7 +76,7 @@ Simpan file `age_verification_proof.json` ini untuk step selanjutnya.
 **Verifikasi**
 
  1. Buka tab baru ke `http://localhost:5001`    
- 2. Anda akan melihat halaman "Verifikasi Akses Game".   
+ 2. Anda akan melihat halaman "Integrated Digital Residency & Identity...".   
  3. Isi Form:
 			NIK: `3333330707970007` (Sesuai ktp_bob)
 			Tanggal Lahir: `07-07-1997` (Sesuai ktp_bob, format DD-MM-YYYY)
