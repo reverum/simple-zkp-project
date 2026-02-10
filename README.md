@@ -39,6 +39,10 @@ Cek instalasi dengan mengetik `circom --version`
 
     sudo npm install -g snarkjs
 
+**Install CircomLib**
+	
+	git clone https://github.com/iden3/circomlib.git
+
 ## Step 2: Kompilasi
     circom proof_circuit.circom --r1cs --wasm --sym -o build
     snarkjs groth16 setup build/proof_circuit.r1cs build/powersOfTau28_hez_final_12.ptau build/circuit_0000.zkey
